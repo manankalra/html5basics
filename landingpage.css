@@ -1,0 +1,85 @@
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.logo{
+    width:150px;
+    float: left;
+    margin-left:20px;
+    margin-top:18px;
+}
+
+.allmenu{
+    list-style: none;
+    float: right;
+}
+
+.eachmenu{
+    display: inline;
+    color:blue;
+    font-size: 130%;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.eachmenu:hover{
+    color:goldenrod;
+    border-bottom: 1px solid goldenrod;
+    transition: all 0.3s ease-in;
+    padding-bottom: 6px;
+   
+}
+
+
+
+.mainMessage{
+    top:43%;
+    position: absolute;
+    left:10%;
+    font-size: 200%;    
+    width: 80%;
+}
+
+.buttonContainer{
+   
+    margin-top:15px;
+    z-index: 3;
+    position: absolute;
+}
+
+header{
+    background-image:
+            linear-gradient(to right,
+                             rgba(255, 255, 255, 1),
+                             rgba(255, 255,255,0)), 
+                             url(background.png);
+  
+    height: 100vh;
+    background-position: center;
+    z-index:2;
+   
+
+}
+
+.button{
+     text-decoration: none;
+     margin-right:30px;
+     background-color: white;
+     padding-left:10px;
+     padding-right:10px;
+     border-radius: 10px;
+     z-index:4;
+    position: static;
+}
+
+.button:hover{
+    color:goldenrod;
+    transition: all 0.3s ease-in;
+    background-color: antiquewhite;
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 10px;
+}
